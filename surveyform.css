@@ -1,0 +1,93 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Crimson Text", serif;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #4b4b4b;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #393939;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #343434;
+}
+
+body {
+  margin: 0;
+  background-color: #06283d;
+  color: #fdfeff;
+  width: 100%;
+  height: 100vh;
+}
+h1,
+p {
+  text-align: center;
+  margin: 1em auto;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+fieldset {
+  border: none;
+  padding: 1.5rem 0;
+}
+
+fieldset:not(:last-of-type) {
+  border-bottom: 1px solid white;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea {
+  background-color: #dff6ff;
+}
+input,
+select,
+textarea {
+  min-height: 2em;
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+.inline {
+  width: unset;
+  vertical-align: middle;
+  margin: 0 0.5em 0 0;
+}
+
+input[type="submit"] {
+  height: 2em;
+  font-weight: 200;
+  font-size: 1.2rem;
+  width: 50%;
+  min-width: 200px;
+  background-color: #1363df;
+  color: white;
+  display: block;
+  margin: 1.5em auto;
+  border: solid 1px #dff6ff;
+}

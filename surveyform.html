@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form by Nairitya</title>
+    <link rel="stylesheet" type="text/css" href="surveyform.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">DIGITAL MEDIA SURVEY FORM</h1>
+    <p id="description">
+      Survey regarding usage of Social media apps & websites
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"
+          >Name<input
+            id="name"
+            type="text"
+            placeholder="Enter Full Name"
+            required
+        /></label>
+        <label id="email-label"
+          >Email
+          <input id="email" type="email" placeholder="Enter Email" required
+        /></label>
+        <label id="number-label"
+          >Age
+          <input
+            id="number"
+            type="number"
+            min="18"
+            max="150"
+            placeholder="Enter Age"
+            required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label
+          >Which device do you use most<select id="dropdown">
+            <option>Choose one from the below</option>
+            <option>Mobile Phone</option>
+            <option>Laptop/PC</option>
+          </select></label
+        >
+        <label
+          >You are currently
+          <label
+            ><input type="radio" name="job-status" class="inline" value="0" />
+            Student</label
+          ><label
+            ><input type="radio" name="job-status" class="inline" value="1" />
+            Employed</label
+          ><label
+            ><input type="radio" name="job-status" class="inline" value="2" />
+            Unemployed</label
+          ></label
+        >
+      </fieldset>
+      <fieldset>
+        <label
+          >What apps/website do you use
+          <label><input type="checkbox" class="inline" value="fb" />Meta</label>
+          <label
+            ><input
+              type="checkbox"
+              class="inline"
+              value="insta"
+            />Instagram</label
+          >
+          <label
+            ><input type="checkbox" class="inline" value="oth" />Others</label
+          >
+        </label>
+
+        <label>Write others in the box below<textarea></textarea></label>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+</html>
